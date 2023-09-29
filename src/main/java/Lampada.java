@@ -1,7 +1,12 @@
 public class Lampada {
 
+    String modelo;
+    String tensao;
+    int potencia;
     String cor;
-    int voltagem;
+    String tipoLuz;
+    int garantiaMeses;
+
 
     public String getCor() {
         return cor;
@@ -12,10 +17,10 @@ public class Lampada {
     }
 
     public int getVoltagem() {
-        return voltagem;
+        return potencia;
     }
 
     public void setVoltagem(int voltagem) {
-        this.voltagem = voltagem;
+        this.potencia = voltagem;
     }
 }

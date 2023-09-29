@@ -1,5 +1,7 @@
 public class Principal {
     public static void main(String[] args) {
-        Livro L
+        Carro mustang = new Carro();
+        mustang.exibirAutonomia();
+        System.out.println("A autonomia do carro é: " + mustang.obterAutonomia() + " km");
     }
 }
